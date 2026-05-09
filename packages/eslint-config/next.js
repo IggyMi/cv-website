@@ -36,4 +36,17 @@ export const nextJsConfig = [
       "react/prop-types": "off",
     },
   },
+  {
+    // Next.js App Router route handlers must be named after HTTP methods
+    files: ["**/route.ts", "**/route.tsx"],
+    rules: {
+      "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          selector: "function",
+          format: ["camelCase", "PascalCase", "UPPER_CASE"],
+        },
+      ],
+    },
+  },
 ]
