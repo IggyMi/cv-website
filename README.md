@@ -10,9 +10,10 @@ CV presented as an SSG website made through Next.JS, setup on AWS through Terraf
 | CI/CD | ❌ | GitHub Actions | Deploy and infra pipelines |
 | Code Quality | ✅ | ESLint | Shared config in `shared/` |
 | Code Quality | ✅ | Prettier | Shared formatting config in `shared/` |
-| Code Quality | ❌ | Husky + lint-staged | Pre-commit linting and formatting enforcement |
-| Code Quality | ❌ | commitlint | Conventional commit message validation |
-| Code Quality | ❌ | commitizen | Interactive CLI prompt for conventional commits |
+| Code Quality | ✅ | Husky | Git hooks (commit-msg) |
+| Code Quality | ❌ | lint-staged | Pre-commit linting and formatting enforcement |
+| Code Quality | ✅ | commitlint | Conventional commit message validation |
+| Code Quality | ✅ | commitizen + cz-git | Interactive CLI prompt for conventional commits |
 | Code Quality | ❌ | Knip | Dead code and unused dependency detection |
 | Code Quality | ❌ | action-semantic-pull-request | PR title validation against Conventional Commits spec |
 | Code Review | ❌ | claude-code-action | Claude AI agent for PR review and code assistance via @claude mentions |
