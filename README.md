@@ -11,7 +11,7 @@ CV presented as an SSG website made through Next.JS, setup on AWS through Terraf
 | Code Quality | ✅ | ESLint | Shared config in `shared/` |
 | Code Quality | ✅ | Prettier | Shared formatting config in `shared/` |
 | Code Quality | ✅ | Husky | Git hooks (commit-msg) |
-| Code Quality | ❌ | lint-staged | Pre-commit linting and formatting enforcement |
+| Code Quality | ✅ | lint-staged | Pre-commit linting and formatting enforcement |
 | Code Quality | ✅ | commitlint | Conventional commit message validation |
 | Code Quality | ✅ | commitizen + cz-git | Interactive CLI prompt for conventional commits |
 | Code Quality | ❌ | Knip | Dead code and unused dependency detection |
