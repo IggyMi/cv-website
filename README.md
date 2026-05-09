@@ -14,7 +14,7 @@ CV presented as an SSG website made through Next.JS, setup on AWS through Terraf
 | Code Quality | ✅ | lint-staged | Pre-commit linting and formatting enforcement |
 | Code Quality | ✅ | commitlint | Conventional commit message validation |
 | Code Quality | ✅ | commitizen + cz-git | Interactive CLI prompt for conventional commits |
-| Code Quality | ❌ | Knip | Dead code and unused dependency detection |
+| Code Quality | ✅ | Knip | Dead code and unused dependency detection |
 | Code Quality | ❌ | action-semantic-pull-request | PR title validation against Conventional Commits spec |
 | Code Review | ❌ | claude-code-action | Claude AI agent for PR review and code assistance via @claude mentions |
 | Code Review | ❌ | claude-code-security-review | Automated security vulnerability scanning on every PR |

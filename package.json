@@ -9,16 +9,19 @@
     "format": "turbo format",
     "typecheck": "turbo typecheck",
     "prepare": "husky",
-    "commit": "cz"
+    "commit": "cz",
+    "knip": "knip"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.0",
     "@commitlint/config-conventional": "^21.0.0",
+    "@types/node": "^25.6.2",
     "@workspace/eslint-config": "*",
     "@workspace/typescript-config": "*",
     "commitizen": "^4.3.1",
     "cz-git": "^1.13.0",
     "husky": "^9.1.7",
+    "knip": "^6.12.2",
     "lint-staged": "^17.0.3",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
