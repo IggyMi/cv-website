@@ -19,7 +19,6 @@ CV presented as an SSG website made through Next.JS, setup on AWS through Terraf
 | Code Review | ✅ | claude-code-action | Claude AI agent for PR review and code assistance via @claude mentions |
 | Code Review | ✅ | claude-code-security-review | Automated security vulnerability scanning on every PR |
 | Components | ✅ | shadcn/ui | Component library, sourced into `shared/` |
-| Dev Environment | ❌ | Docker | Isolated local dev with hot-reload |
 | Email | ❌ | Resend | Contact form email delivery |
 | Forms | ❌ | React Hook Form + Zod | Contact form and validation |
 | Framework | ✅ | Next.js | SSG (`output: 'export'`) |
