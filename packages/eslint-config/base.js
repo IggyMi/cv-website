@@ -1,7 +1,6 @@
 import js from "@eslint/js"
 import eslintConfigPrettier from "eslint-config-prettier"
 import { globalIgnores } from "eslint/config"
-import onlyWarn from "eslint-plugin-only-warn"
 import turboPlugin from "eslint-plugin-turbo"
 import tseslint from "typescript-eslint"
 
@@ -81,13 +80,6 @@ export const config = [
           format: null,
         },
       ],
-    },
-  },
-  {
-    plugins: {
-      // Demotes all errors to warnings; CI enforcement is handled by TypeScript and the build pipeline
-      // https://github.com/bfanger/eslint-plugin-only-warn
-      onlyWarn,
     },
   },
   globalIgnores(["dist/**", ".next/**", "**/.turbo/**", "**/coverage/**"]),
