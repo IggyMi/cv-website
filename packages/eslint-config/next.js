@@ -14,6 +14,11 @@ export const nextJsConfig = [
   ...baseConfig,
   {
     ...pluginReact.configs.flat.recommended,
+    plugins: {
+      ...pluginReact.configs.flat.recommended.plugins,
+      "react-hooks": pluginReactHooks,
+      "@next/next": pluginNext,
+    },
     languageOptions: {
       ...pluginReact.configs.flat.recommended.languageOptions,
       globals: {
@@ -21,24 +26,12 @@ export const nextJsConfig = [
         ...globals.browser,
       },
     },
-  },
-  {
-    plugins: {
-      "@next/next": pluginNext,
-    },
-    rules: {
-      ...pluginNext.configs.recommended.rules,
-      ...pluginNext.configs["core-web-vitals"].rules,
-    },
-  },
-  {
-    plugins: {
-      "react-hooks": pluginReactHooks,
-    },
     settings: { react: { version: "detect" } },
     rules: {
+      ...pluginReact.configs.flat.recommended.rules,
       ...pluginReactHooks.configs.recommended.rules,
-      // React scope no longer necessary with new JSX transform.
+      ...pluginNext.configs.recommended.rules,
+      ...pluginNext.configs["core-web-vitals"].rules,
       "react/react-in-jsx-scope": "off",
       "react/prop-types": "off",
     },
