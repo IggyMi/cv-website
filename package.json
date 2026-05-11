@@ -19,14 +19,14 @@
     "@workspace/eslint-config": "*",
     "@workspace/typescript-config": "*",
     "commitizen": "^4.3.1",
-    "cz-git": "^1.13.0",
+    "cz-git": "^1.13.1",
     "husky": "^9.1.7",
     "knip": "^6.12.2",
-    "lint-staged": "^17.0.3",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "turbo": "^2.8.17",
-    "typescript": "5.9.3"
+    "lint-staged": "^17.0.4",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "turbo": "^2.9.12",
+    "typescript": "6.0.3"
   },
   "type": "module",
   "config": {
@@ -34,7 +34,7 @@
       "path": "node_modules/cz-git"
     }
   },
-  "packageManager": "npm@11.12.1",
+  "packageManager": "npm@11.14.1",
   "engines": {
     "node": ">=20"
   },
