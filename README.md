@@ -35,3 +35,10 @@ CV presented as an SSG website made through Next.JS, setup on AWS through Terraf
 | Styling | ✅ | Tailwind CSS | Utility-first styling |
 | Testing | ❌ | Playwright | End-to-end testing (stretch goal) |
 | Theming | ✅ | next-themes | Dark/light mode management |
+
+## Dependency Constraints
+
+| Package | Pinned | Reason |
+|---|---|---|
+| `zod` | `^3.x` | `shadcn` and `eslint-plugin-react-hooks` transitively require zod v3 |
+| `eslint` | `^9.x` | `eslint-plugin-react` and `eslint-plugin-jsx-a11y` use APIs removed in ESLint v10 |
