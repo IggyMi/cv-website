@@ -31,7 +31,7 @@ CV presented as an SSG website made through Next.JS, setup on AWS through Terraf
 | Infrastructure | ❌ | AWS Route 53 | DNS management |
 | Language | ✅ | TypeScript | Across all packages and apps |
 | Monorepo | ✅ | TurboRepo | Task orchestration and build caching |
-| Monorepo | ✅ | npm | Package management |
+| Monorepo | ✅ | pnpm | Package management |
 | Styling | ✅ | Tailwind CSS | Utility-first styling |
 | Testing | ❌ | Playwright | End-to-end testing (stretch goal) |
 | Theming | ✅ | next-themes | Dark/light mode management |

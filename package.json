@@ -34,12 +34,9 @@
       "path": "node_modules/cz-git"
     }
   },
-  "packageManager": "npm@11.14.1",
+  "packageManager": "pnpm@9.14.2",
   "engines": {
-    "node": ">=20"
-  },
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
 }

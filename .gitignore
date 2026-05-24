@@ -2,8 +2,6 @@
 
 # Dependencies
 node_modules
-.pnp
-.pnp.js
 
 # Local env files
 .env
@@ -30,7 +28,7 @@ dist
 next-env.d.ts
 
 # Debug
-npm-debug.log*
+pnpm-debug.log*
 
 # IDEs
 .idea/
