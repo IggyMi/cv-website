@@ -37,7 +37,11 @@ npm-debug.log*
 .vscode/
 *.sublime-project
 *.sublime-workspace
+**/*.iml
 
 # Misc
 .DS_Store
 *.pem
+
+# AI Tooling
+.claude/**
