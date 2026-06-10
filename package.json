@@ -16,8 +16,8 @@
     "@commitlint/cli": "^21.0.0",
     "@commitlint/config-conventional": "^21.0.0",
     "@types/node": "^25.6.2",
-    "@workspace/eslint-config": "*",
-    "@workspace/typescript-config": "*",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
     "commitizen": "^4.3.1",
     "cz-git": "^1.13.1",
     "husky": "^9.1.7",
@@ -34,9 +34,9 @@
       "path": "node_modules/cz-git"
     }
   },
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@11.5.2",
   "engines": {
     "node": ">=20",
-    "pnpm": ">=9"
+    "pnpm": ">=11"
   }
 }
